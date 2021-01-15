@@ -244,4 +244,5 @@ export const cities = [
       Düzce
     </option>
   </select>,
+  <div class="select_arrow"></div>
 ];

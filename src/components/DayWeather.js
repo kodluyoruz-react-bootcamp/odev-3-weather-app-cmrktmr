@@ -9,10 +9,13 @@ function Day() {
       <div className="forecast-item">
         <div className="day">
           <h4>{result.dayShort}</h4>
+          <h6>{result.month} {result.date} </h6>
         </div>
+     
         <div className="forecast">
-          <h4> Maksimum Sıcaklık: {result.maxTemp} ºC</h4>
-          <h4> Minimum Sıcaklık: {result.minTemp} ºC</h4>
+          <b><i> {result.temp} ºC</i></b>
+          <h6> En Yüksek Sıcaklık: {result.maxTemp} ºC</h6>
+          <h6> En Düşük Sıcaklık: {result.minTemp} ºC</h6>
         </div>
       </div>
     );

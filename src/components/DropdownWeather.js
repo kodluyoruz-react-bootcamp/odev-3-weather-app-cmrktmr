@@ -10,10 +10,12 @@ function Dropdown() {
   };
 
   return (
-    <div className="dropdown_weather">
-      <h5>Lütfen İlinizi Seçiniz </h5>
-      <form name="cityname" type="submit" onChange={changeHandler}>
+    <div className="select">
+      
+      <form  className="form_container"name="cityname" type="submit" onChange={changeHandler}>
+            
         {cities}
+      
       </form>
       <br />
       <br />

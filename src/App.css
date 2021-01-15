@@ -4,7 +4,7 @@
 }
 body {
   height: 100vh;
- 
+
   background-color: #efefef;
   font-family: "Montserrat", sans-serif;
   padding: 25px;
@@ -31,7 +31,7 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   justify-items: center;
-  background-color: #2075cd;
+  background-color: #39434f;
   color: white;
   width: 25%;
 
@@ -80,9 +80,6 @@ body {
   width: 75%;
 }
 
-
-
-
 .forecast-item {
   display: flex;
   justify-content: space-between;
@@ -103,32 +100,28 @@ body {
   text-align: right;
 }
 
-.form_container{
+.form_container {
   position: relative;
   display: flex;
 }
-
 
 .select {
   position: relative;
   display: inline-block;
   margin-bottom: 15px;
   width: 100%;
-  
-
-
-  
-}    .select select {
-  font-family: 'Arial';
+}
+.select select {
+  font-family: "Arial";
   display: inline-block;
   width: 90%;
   cursor: pointer;
   padding: 10px 15px 10px 0;
   outline: 0;
   border: 0px solid #000000;
-      border-bottom-color: rgb(0, 0, 0);
-      border-bottom-style: solid;
-      border-bottom-width: 0px;
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
   border-radius: 0px;
   background: none;
   color: #fff;
@@ -138,21 +131,20 @@ body {
   margin: 0 auto !important;
   border-bottom: 2px solid #ddd;
   transition: all 0.2s;
-  }
-      .select select::-ms-expand {
-          display: none;
-      }
-      .select select:hover,
-      .select select:focus {
-          color: #fff;
-          background: #176abf;
-          border-radius: 7px;
-          
-      }
-      .select select:disabled {
-          opacity: 0.5;
-          pointer-events: none;
-      }
+}
+.select select::-ms-expand {
+  display: none;
+}
+.select select:hover,
+.select select:focus {
+  color: #fff;
+  background: #176abf;
+  border-radius: 7px;
+}
+.select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
 .select_arrow {
   position: absolute;
   top: 16px;
@@ -169,13 +161,6 @@ body {
 .select select:disabled ~ .select_arrow {
   border-top-color: #cccccc;
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 600px) {
   .body {
